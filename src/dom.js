@@ -70,6 +70,30 @@ dom.getElement('search').addEventListener('click', () => {
   getData(search);
 });
 
+// add event listener to enter key
+// dom.getElement('input').addEventListener('keyup', function (e) {
+//   console.log('hello');
+//   if(e.keyCode === 13){
+//     e.preventDefault();
+//     alert('hello');
+//   }
+// });
+
+var input = document.getElementById("input");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("input").click();
+  }
+});
+
+
+
 function convert() {
   if (metrics) {
     const temp = Number(currentTemp.innerText);
