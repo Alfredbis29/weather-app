@@ -70,15 +70,15 @@ dom.getElement('search').addEventListener('click', () => {
   const search = dom.getElement('input').value;
   getData(search);
 });
-
-// add event listener to enter key
-// dom.getElement('input').addEventListener('keyup', function (e) {
-//   console.log('hello');
-//   if(e.keyCode === 13){
-//     e.preventDefault();
-//     alert('hello');
-//   }
-// });
+//   i gonna remove this 
+add event listener to enter key
+dom.getElement('input').addEventListener('keyup', function (e) {
+  console.log('hello');
+  if(e.keyCode === 13){
+    e.preventDefault();
+    alert('hello');
+  }
+});
 
 var input = document.getElementById("input");
 
