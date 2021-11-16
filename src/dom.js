@@ -118,3 +118,4 @@ async function search() {
 }
 
 export { dom, search };
+ export { dom ,getText}
