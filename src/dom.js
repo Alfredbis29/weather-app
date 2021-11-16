@@ -70,12 +70,6 @@ dom.getElement('search').addEventListener('click', () => {
   getData(search);
 });
 
-// function open(){
-//   let  a = 6;
-//   let b = 4;
-//   return 
-   
-// }
 // add event listener to enter key
 // dom.getElement('input').addEventListener('keyup', function (e) {
 //   console.log('hello');
