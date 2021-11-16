@@ -71,14 +71,14 @@ dom.getElement('search').addEventListener('click', () => {
   getData(search);
 });
 //   i gonna remove this 
-add event listener to enter key
-dom.getElement('input').addEventListener('keyup', function (e) {
-  console.log('hello');
-  if(e.keyCode === 13){
-    e.preventDefault();
-    alert('hello');
-  }
-});
+// add event listener to enter key
+// dom.getElement('input').addEventListener('keyup', function (e) {
+//   console.log('hello');
+//   if(e.keyCode === 13){
+//     e.preventDefault();
+//     alert('hello');
+//   }
+// });
 
 var input = document.getElementById("input");
 
