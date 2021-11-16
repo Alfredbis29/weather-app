@@ -17,7 +17,7 @@ const dom = (function () {
   function hideAlert() {
     getElement('alert').style.display = 'none';
   }
-  // this gonna return our values and alert
+  // this gonna return our values and alert 
   return {
     getElement,
     render,
